@@ -43,6 +43,12 @@ const AgeCalculator = () => {
         ageYears -= 1;
         ageMonths += 12;
       }
+      if (today.getMonth() === birthDate.getMonth()) {
+        if (today.getFullYear() === birthDate.getFullYear()) {
+          ageYears = 0;
+          ageMonths = 0;
+        }
+      }
 
       //set the calculated age in the status
       setAge({
