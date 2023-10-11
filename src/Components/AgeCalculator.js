@@ -49,6 +49,19 @@ const AgeCalculator = () => {
           ageMonths = 0;
         }
       }
+      if (
+        today.getMonth() === birthDate.getMonth() &&
+        today.getFullYear() !== birthDate.getFullYear()
+      ) {
+        if (daysDiff > 0) {
+          ageYears += 1;
+          ageMonths = 0;
+        }
+      }
+      if (ageMonths === 12) {
+        ageYears += 1;
+        ageMonths = 0;
+      }
 
       //set the calculated age in the status
       setAge({
