@@ -1,3 +1,4 @@
+<img width="958" alt="Age-calculator" src="https://github.com/SaumyaaPrajapat/Calculator/assets/103128269/1ee64d19-195b-42d8-b32e-ad7c34e38154">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
